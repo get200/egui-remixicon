@@ -9,7 +9,7 @@ Got inspired by [egui_phosphor](https://github.com/amPerl/egui-phosphor), code u
 Add the crate as a dependency in Cargo.toml:
 
 ```toml
-egui-remixicon = "0.1.0"
+egui-remixicon = "0.2.0"
 ```
 
 On startup, update the fonts in your egui context:
