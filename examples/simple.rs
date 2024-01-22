@@ -1,10 +1,9 @@
 use eframe::NativeOptions;
-use egui::Vec2;
 
 fn main() {
     let native_options = NativeOptions {
         centered: true,
-        initial_window_size: Some(Vec2::new(500.0, 300.0)),
+        viewport: egui::ViewportBuilder::default().with_inner_size([500.0, 300.0]),
         ..Default::default()
     };
     eframe::run_native(
