@@ -1,6 +1,6 @@
 [package]
 name = "egui-remixicon"
-version = "0.2.0"
+version = "0.26.2"
 edition = "2021"
 description = "Remix Icon for egui"
 license = "MIT OR Apache-2.0"
@@ -9,7 +9,7 @@ repository = "https://github.com/get200/egui-remixicon"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-egui = { version = "0.25.0", default-features = false }
+egui = { version = "0.26.2", default-features = false }
 
 [dev-dependencies]
-eframe = "0.25.0"
+eframe = "0.26.2"
