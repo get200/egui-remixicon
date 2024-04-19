@@ -9,7 +9,7 @@ Got inspired by [egui_phosphor](https://github.com/amPerl/egui-phosphor), code u
 Add the crate as a dependency in Cargo.toml:
 
 ```toml
-egui-remixicon = "0.26.2"
+egui-remixicon = "0.27.2"
 ```
 
 On startup, update the fonts in your egui context:
@@ -19,6 +19,19 @@ let mut fonts = egui::FontDefinitions::default();
 egui_remixicon::add_to_fonts(&mut fonts);
 
 cc.egui_ctx.set_fonts(fonts);
+```
+
+### Install without egui dependency
+
+If you would like to use this crate without egui or with an egui version that is out of sync with the latest version of this crate, you can add without default features:
+
+```toml
+egui-remixicon = { version="0.27.2", default-features=false }
+```
+
+The font file can then be accessed as
+``` rust
+egui_remixicon::FONT
 ```
 
 ## Usage
