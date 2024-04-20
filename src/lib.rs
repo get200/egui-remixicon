@@ -1,5 +1,7 @@
 pub mod icons;
 
+pub const FONT: &[u8] = include_bytes!("../assets/remixicon.ttf");
+
 #[cfg(feature = "egui")]
 pub fn add_to_fonts(fonts: &mut egui::FontDefinitions) {
     fonts.font_data.insert("remixicon".into(), font_data());
@@ -14,5 +16,3 @@ fn font_data() -> egui::FontData {
     let font_data = egui::FontData::from_static(FONT);
     font_data
 }
-
-pub const FONT: &[u8] = include_bytes!("../assets/MaterialIcons-Regular.ttf");
