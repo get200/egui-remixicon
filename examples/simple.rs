@@ -9,7 +9,7 @@ fn main() {
     eframe::run_native(
         "egui-remixicon demo",
         native_options,
-        Box::new(|cc| Box::new(Demo::new(cc))),
+        Box::new(|cc| Ok(Box::new(Demo::new(cc)))),
     )
     .unwrap();
 }

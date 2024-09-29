@@ -1,14 +1,15 @@
-//! Remix Icon v4.2.0
-//! 
+//! Remix Icon v4.3.0
+//!
 //! https://remixicon.com
-//! 
+//!
 //! https://github.com/Remix_Design/RemixIcon
-//! 
+//!
 //! Copyright RemixIcon.com
-//! 
+//!
 //! Released under the Apache License Version 2.0
-//! 
-//! Date: 2024_02_25
+//!
+//! Date: 2024_06_13
+//!
 
 #![allow(unused)]
 
@@ -1713,8 +1714,8 @@ pub const RULER_FILL: &str = "\u{f0a2}";
 pub const RULER_LINE: &str = "\u{f0a3}";
 pub const RUN_FILL: &str = "\u{f0a4}";
 pub const RUN_LINE: &str = "\u{f0a5}";
-pub const SAFARI_FILL: &str = "\u{f0a6}";
-pub const SAFARI_LINE: &str = "\u{f0a7}";
+pub const SAFAFILL: &str = "\u{f0a6}";
+pub const SAFALINE: &str = "\u{f0a7}";
 pub const SAFE_2_FILL: &str = "\u{f0a8}";
 pub const SAFE_2_LINE: &str = "\u{f0a9}";
 pub const SAFE_FILL: &str = "\u{f0aa}";
@@ -2862,3 +2863,45 @@ pub const WEBHOOK_FILL: &str = "\u{f51f}";
 pub const WEBHOOK_LINE: &str = "\u{f520}";
 pub const WEIGHT_FILL: &str = "\u{f521}";
 pub const WEIGHT_LINE: &str = "\u{f522}";
+pub const BOOK_SHELF_FILL: &str = "\u{f523}";
+pub const BOOK_SHELF_LINE: &str = "\u{f524}";
+pub const BRAIN_2_FILL: &str = "\u{f525}";
+pub const BRAIN_2_LINE: &str = "\u{f526}";
+pub const CHAT_SEARCH_FILL: &str = "\u{f527}";
+pub const CHAT_SEARCH_LINE: &str = "\u{f528}";
+pub const CHAT_UNREAD_FILL: &str = "\u{f529}";
+pub const CHAT_UNREAD_LINE: &str = "\u{f52a}";
+pub const COLLAPSE_HORIZONTAL_FILL: &str = "\u{f52b}";
+pub const COLLAPSE_HORIZONTAL_LINE: &str = "\u{f52c}";
+pub const COLLAPSE_VERTICAL_FILL: &str = "\u{f52d}";
+pub const COLLAPSE_VERTICAL_LINE: &str = "\u{f52e}";
+pub const DNA_FILL: &str = "\u{f52f}";
+pub const DNA_LINE: &str = "\u{f530}";
+pub const DROPPER_FILL: &str = "\u{f531}";
+pub const DROPPER_LINE: &str = "\u{f532}";
+pub const EXPAND_DIAGONAL_S_2_FILL: &str = "\u{f533}";
+pub const EXPAND_DIAGONAL_S_2_LINE: &str = "\u{f534}";
+pub const EXPAND_DIAGONAL_S_FILL: &str = "\u{f535}";
+pub const EXPAND_DIAGONAL_S_LINE: &str = "\u{f536}";
+pub const EXPAND_HORIZONTAL_FILL: &str = "\u{f537}";
+pub const EXPAND_HORIZONTAL_LINE: &str = "\u{f538}";
+pub const EXPAND_HORIZONTAL_S_FILL: &str = "\u{f539}";
+pub const EXPAND_HORIZONTAL_S_LINE: &str = "\u{f53a}";
+pub const EXPAND_VERTICAL_FILL: &str = "\u{f53b}";
+pub const EXPAND_VERTICAL_LINE: &str = "\u{f53c}";
+pub const EXPAND_VERTICAL_S_FILL: &str = "\u{f53d}";
+pub const EXPAND_VERTICAL_S_LINE: &str = "\u{f53e}";
+pub const GEMINI_FILL: &str = "\u{f53f}";
+pub const GEMINI_LINE: &str = "\u{f540}";
+pub const RESET_LEFT_FILL: &str = "\u{f541}";
+pub const RESET_LEFT_LINE: &str = "\u{f542}";
+pub const RESET_RIGHT_FILL: &str = "\u{f543}";
+pub const RESET_RIGHT_LINE: &str = "\u{f544}";
+pub const STAIRS_FILL: &str = "\u{f545}";
+pub const STAIRS_LINE: &str = "\u{f546}";
+pub const TELEGRAM_2_FILL: &str = "\u{f547}";
+pub const TELEGRAM_2_LINE: &str = "\u{f548}";
+pub const TRIANGULAR_FLAG_FILL: &str = "\u{f549}";
+pub const TRIANGULAR_FLAG_LINE: &str = "\u{f54a}";
+pub const USER_MINUS_FILL: &str = "\u{f54b}";
+pub const USER_MINUS_LINE: &str = "\u{f54c}";
