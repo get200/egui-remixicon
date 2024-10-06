@@ -9,7 +9,7 @@ Got inspired by [egui_phosphor](https://github.com/amPerl/egui-phosphor), code u
 Add the crate as a dependency in Cargo.toml:
 
 ```toml
-egui-remixicon = "0.29.0"
+egui-remixicon = "0.29.1"
 ```
 
 On startup, update the fonts in your egui context:
@@ -26,7 +26,7 @@ cc.egui_ctx.set_fonts(fonts);
 If you would like to use this crate without egui or with an egui version that is out of sync with the latest version of this crate, you can add without default features:
 
 ```toml
-egui-remixicon = { version="0.29.0", default-features=false }
+egui-remixicon = { version="0.29.1", default-features=false }
 ```
 
 The font file can then be accessed as
@@ -41,6 +41,10 @@ Use the constants provided by the crate in your text:
 ```rust
 ui.label(egui::RichText::new(format!("{} Heart", egui_remixicon::icons::HEARTS_FILL)).size(32.0));
 ```
+
+## Icon comments
+
+![icon hint](./screenshots/icon_comments.jpg)
 
 ## License
 
